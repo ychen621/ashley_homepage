@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "HeaderFont";
+    src: local("HeaderFont"), url(../font/kaushan-script/KaushanScript-Regular.otf) format('opentype');
+}
+
+h1{
+    font-family: 'HeaderFont';
+    font-size: 55px;
+    text-align: left;
+    color: #756e58;
+    padding: 4%;
+    margin: 0;
+    background-color: #c2baaf;
+    background-clip: border-box;
+}
+
+h4{
+    font-family: 'HeaderFont';
+    font-size: 20px;
+    color: #f2f1ef;
+    margin: auto;
+}
+
+.social_parent{
+    padding-bottom: 2%;
+    background-color: #c2baaf;
+    display: flex;
+    justify-content: center;
+}
+
+.social_child{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+img{
+    height: 80%;
+    margin-right: 0%;
+    padding-left: 2%;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+}
