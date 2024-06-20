@@ -19,7 +19,7 @@ function About(){
                         <p>I am proficient in multiple programming languages including Java, Python, C, C++, C#, JavaScript, and TypeScript.
                             Futhermore, I am experienced in Web development, Multi-threads Programming, Machine Learning, and Game Development.
                             Please find more details about my previous work in <Link to="/projects"style={{textDecoration: 'none'}}>Projects </Link>
-                            section or in my <a href="../files/Yi-Hsuan_Chen_Resume.pdf">Resume</a>.
+                            section or in my <a href="../src/files/Yi-Hsuan_Chen_Resume.pdf">Resume</a>.
                         </p>
                         <h3 id="list_title">Education</h3>
                         <li className="school">
