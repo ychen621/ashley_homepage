@@ -5,6 +5,7 @@ import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
 import Publication from "./Publication";
+import Resume from "./Resume";
 import PageNotFound from "./PageNotFound";
 
 function Main(){
@@ -17,6 +18,7 @@ function Main(){
                         <Route path="about" element={<About />} />
                         <Route path="projects" element={<Projects />} />
                         <Route path="publications" element={<Publication />} />
+                        <Route path="resume" element={<Resume />} />
                         <Route path="*" element={<PageNotFound />} />
                     </Route>
                 </Routes>

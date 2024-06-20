@@ -4,7 +4,12 @@ function Footer(){
     return(
         <>
             <div className="footer_parent">
-                Social Media Icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                <span className="footer_content">
+                    Copyright @ 2024 Yi-Hsuan Chen. Powered by React+Vite.
+                </span>
+                <span className="footer_content">
+                    All Icons by <a target="_blank" href="https://icons8.com">Icons8</a>
+                </span>
             </div>
         </>
     )

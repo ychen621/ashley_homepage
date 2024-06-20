@@ -1,17 +1,33 @@
+@font-face {
+    font-family: 'ListFont';
+    src: local('ListFont'), url(../font/rony-siswadi-architect-6-font/RonysiswadiArchitect6-X3V9G.ttf) format('truetype');
+}
+
 .about_parent{
     text-align: center;
 }
 
 #about_container{
     display: flex;
+    font-family: "ListFont";
+    font-size: 18px;
 }
 
 .educationul{
+    flex-grow: 2;
     text-align: left;
     list-style-type: none;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 0;
+    margin: 0;
 }
 
-#edu_title{
+#intro{
+    font-size: 20px;
+}
+
+#list_title{
     margin-bottom: 5px;
 }
 

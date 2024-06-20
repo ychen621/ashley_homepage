@@ -1,3 +1,9 @@
 .footer_parent{
-    background-color: #c2baaf;;
+    background-color: #c2baaf;
+    padding: 2%;
+    text-align: center;
+}
+
+.footer_content{
+    padding: 2px
 }

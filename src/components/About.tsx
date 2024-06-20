@@ -1,18 +1,27 @@
 import "./About.css"
+import ashley02 from "../images/gradimage2.png"
+import { Link } from "react-router-dom"
 
 function About(){
     const uscline = "M.S. in Computer Science (GPA: 3.74) \n Period: Jan. 2022 - May. 2024"
     const imgsline = "Ph.D. Candidate in Biolodical Science \n Period: Jul. 2019 - Jan. 2022"
     const ntuline = "B.S. in Clinical Laboratory Science and Medical Biotechnology (GPA: 3.81) \n Period: Sep. 2014 - Jun. 2018"
 
+    
     return(
         <>
             <div className="about_parent">
                 <h2 className="title">About</h2>
                 <div id="about_container">
-                    <span>I'm a software engineer with solid biological backgroud</span>
+                    <img id="profile01" src={ashley02}></img>
                     <ul className="educationul">
-                        <h3 id="edu_title">Education</h3>
+                        <span id="intro">😊 Master of Science in Counpter Science with strong Biological background 😊</span>
+                        <p>I am proficient in multiple programming languages including Java, Python, C, C++, C#, JavaScript, and TypeScript.
+                            Futhermore, I am experienced in Web development, Multi-threads Programming, Machine Learning, and Game Development.
+                            Please find more details about my previous work in <Link to="/projects"style={{textDecoration: 'none'}}>Projects </Link>
+                            section or in my <Link to="/resume"style={{textDecoration: 'none'}}>Resume</Link>.
+                        </p>
+                        <h3 id="list_title">Education</h3>
                         <li className="school">
                             <a id="usc" href="https://www.usc.edu/">University of Southern California</a>
                             <p className="degree">{uscline}</p>
