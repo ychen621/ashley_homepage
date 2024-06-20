@@ -1,0 +1,21 @@
+.about_parent{
+    text-align: center;
+}
+
+#about_container{
+    display: flex;
+}
+
+.educationul{
+    text-align: left;
+    list-style-type: none;
+}
+
+#edu_title{
+    margin-bottom: 5px;
+}
+
+p.degree{
+    margin-top: 0;
+    white-space: pre-line;
+}

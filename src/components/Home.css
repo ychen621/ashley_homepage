@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'ContentFont';
+    src: local('ContentFont'), url(../font/shifty-notes-font/ShiftyNotesRegular-BWZ6d.ttf) format('truetype');
+}
+
+.home_parent{
+    text-align: center;
+}
+
+.title{
+    font-family: "HeaderFont";
+    font-size: 30px;
+}
+
+#home_container{
+    display: flex;
+}
+
+#profile01{
+    height: 400px;
+    width: 290px;
+    padding: 1%;
+    border-style: dashed;
+    border-radius: 10%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+
+#home_content{
+    display: inline-flex;
+    align-items: center;
+    text-align: left;
+    font-size: 30px;
+    font-family: "ContentFont";
+    flex-grow: 2;
+    padding: 10%;
+}
