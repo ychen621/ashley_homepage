@@ -22,7 +22,7 @@ function Header(){
                     <img src={github} alt="GitHub"></img>
                 </Link>
                 <img src={pin} alt="location"></img>
-                <span><h4>Sunnyvale, CA</h4></span>
+                <span><h4 id="city">Sunnyvale, CA</h4></span>
             </div>
         </>
     )

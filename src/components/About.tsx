@@ -18,8 +18,8 @@ function About(){
                         <span id="intro">😊 Master of Science in Counpter Science with strong Biological background 😊</span>
                         <p>I am proficient in multiple programming languages including Java, Python, C, C++, C#, JavaScript, and TypeScript.
                             Futhermore, I am experienced in Web development, Multi-threads Programming, Machine Learning, and Game Development.
-                            Please find more details about my previous work in <Link to="/projects"style={{textDecoration: 'none'}}>Projects </Link>
-                            section or in my <a href="../src/files/Yi-Hsuan_Chen_Resume.pdf">Resume</a>.
+                            Please find more details about my previous work in <Link to="/projects"style={{color:'#5f574f'}}>PROJECTS </Link>
+                            section or in my <a href="../src/files/Yi-Hsuan_Chen_Resume.pdf" style={{color:'#5f574f'}}>RESUME</a>.
                         </p>
                         <h3 id="list_title">Education</h3>
                         <li className="school">

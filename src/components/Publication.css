@@ -1,3 +1,24 @@
 .publications_parent{
     text-align: center;
 }
+
+.publications_container{
+    
+}
+
+ul.paperul{
+    list-style-type: none;
+    text-align: left;
+    padding-right: 10%;
+}
+
+li.paperli{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4.paper_title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
