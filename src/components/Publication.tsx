@@ -16,15 +16,18 @@ function Publication(){
                 <div id="publication_container">
                     <ul className="paperul">
                         <li className="paperli">
-                            <h4 className="paper_title"><a href="">Arginine shortage induces replication stress and confers genotoxic resistance by inhibiting histone H4 translation and promoting PCNA ubiquitination</a></h4>
+                            <h4 className="paper_title"><a href="https://doi.org/10.1016/j.celrep.2023.112296">Arginine shortage induces replication stress and confers genotoxic resistance by inhibiting histone H4 translation and promoting PCNA ubiquitination</a></h4>
+                            <p className="journal">Published in Cell Reports, March 23 2023</p>
                             <BoldText text={author_arginine} boldText={name}></BoldText>
                         </li>
                         <li className="paperli">
                             <h4 className="paper_title"><a className="paper_title" href="">DNA replication initiation factor RECQ4 possesses a role in antagonizing DNA replication initiation</a></h4>
+                            <p className="journal">Published in Nature Communications, March 04 2023</p>
                             <BoldText text={author_DNA} boldText={name}></BoldText>
                         </li>
                         <li className="paperli">
                             <h4 className="paper_title"><a className="paper_title" href="">Amino acid restriction induces a long non-coding RNA UBA6-AS1 to regulate GCN2-mediated integrated stress response in breast cancer.</a></h4>
+                            <p className="journal">Published in FASEB, March 2022</p>
                             <BoldText text={author_lncRNA} boldText={name}></BoldText>
                         </li>
                     </ul>
