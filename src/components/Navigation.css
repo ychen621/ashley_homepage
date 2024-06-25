@@ -6,6 +6,7 @@
 .parent{
     display: flex;
     background-color: #f2f1ef;
+    height: 100vh;
 }
 
 .nav{

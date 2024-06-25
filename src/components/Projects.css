@@ -1,3 +1,18 @@
 .projects_parent{
     text-align: center;
 }
+
+ul.projectul{
+    list-style-type: none;
+    text-align: left;
+    padding-right: 10%;
+}
+
+h3.pTitle{
+    margin-bottom: 0;
+}
+
+h4.pSubTitle{
+    margin-top: 0;
+    margin-bottom: 0;
+}
